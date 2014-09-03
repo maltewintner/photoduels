@@ -1,0 +1,199 @@
+
+.container {
+	padding-top: 20px;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-bottom: 50px;
+}
+
+#logo {
+	font-size: 2.6em;
+	padding-top: 4px;
+	white-space: nowrap;
+}
+
+.navbar-default {
+	background-color: #e0e0e0;
+	border-color: #ffffff;
+	border: 1px solid #d1d0ce;
+}
+
+.navbar-default .navbar-nav li a {
+	color: #000000;
+}
+
+.navbar-default .navbar-nav li a:hover {
+	color: #000000;
+	background-color: #eee;
+}
+
+.navbar-default .navbar-nav .active a, 
+.navbar-default .navbar-nav .active a:hover, 
+.navbar-default .navbar-nav .active a:focus {
+	color: #000000;
+	background-color: #f8f8f8;
+}
+
+.nav-pills {
+	background-color: #e0e0e0;
+	border: 1px solid #d1d0ce;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	margin-bottom: 20px;
+}
+
+.nav-pills li a,
+.nav-pills li a:hover,
+.nav-pills li a:focus {
+    color: #000000;
+}
+
+.nav-pills li.active a,
+.nav-pills li.active a:hover,
+.nav-pills li.active a:focus {
+	color: #000000;
+    background-color: #f8f8f8;
+}
+
+.home-explanation {
+	padding-top: 0px !important;
+}
+
+.home-gallery {
+	padding: 0px;
+	margin: 0px;
+    text-align: center;
+}
+
+.duel-outer .row {
+	padding-top: 10px;
+}
+
+.duel-outer .thumbnail {
+	border: 1px solid white;
+}
+
+.duel-outer a,
+.duel-outer a:hover,
+.duel-outer a:focus {
+	border: 1px solid white;
+}
+
+.duel-outer img {
+	max-height: 400px;
+	max-width: 400px;
+}
+
+.duel-thumb {
+	padding-bottom: 14px;
+}
+
+.thumb-img {
+	max-height: 240px;
+	max-width: 240px;
+}
+
+.home-explanation p {
+	padding-top: 10px;
+}
+
+.row {
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.header {
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+.logo {
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+.logo a, .logo a:hover {
+	text-decoration: none;
+	color: black;
+}
+
+.tagcloud {
+	padding-top: 40px;
+	margin: auto;
+	width:200px;
+	text-align: center;
+}
+ 
+.tag1 {
+	font-size: 1em;
+	color: black;
+}
+
+.tag2 {
+	font-size: 1.2em;
+	color: black;
+}
+
+.tag3 {
+	font-size: 1.4em;
+	color: black;
+}
+
+.tag4 {
+	font-size: 1.6em;
+	color: black;
+}
+ 
+#tagcloud a {
+	text-decoration: none;
+}
+
+.list-group li {
+	list-style: none;
+}
+
+.panel-info, .panel-rating, .panel-more1 {
+	float: left;
+	margin: 0 10px;
+}
+
+.duel-item {
+	padding: 6px;
+}
+
+.duel-winner {
+	border: 6px solid orange;
+}
+
+.duel-outer {
+	text-align: center;
+    margin: auto;
+    padding: 0px;
+}
+
+.duel-outer h4 {
+	padding-bottom: 8px;
+}
+
+.duel-outer li {
+	display: table-cell;
+    vertical-align: top;
+}
+
+.duel-inner {
+    padding: 2px;
+}
+
+.btn-new-picture {
+	margin-bottom: 16px;
+}
+
+.detail {
+	padding-top: 40px;
+}
+
+.pagination-info {
+	padding-top: 24px;
+}
+
