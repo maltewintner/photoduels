@@ -1,7 +1,7 @@
 {
-	"name": "laravel/laravel",
-	"description": "The Laravel Framework.",
-	"keywords": ["framework", "laravel"],
+	"name": "maltewintner/photoduels",
+	"description": "PhotoDuels",
+	"keywords": ["laravel", "sample application"],
 	"license": "MIT",
 	"require": {
 		"laravel/framework": "4.2.*"
