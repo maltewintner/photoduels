@@ -80,18 +80,8 @@
 	border: 1px solid white;
 }
 
-.duel-outer img {
-	max-height: 400px;
-	max-width: 400px;
-}
-
 .duel-thumb {
-	padding-bottom: 14px;
-}
-
-.thumb-img {
-	max-height: 240px;
-	max-width: 240px;
+	padding-bottom: 30px;
 }
 
 .home-explanation p {

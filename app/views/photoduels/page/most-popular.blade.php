@@ -16,7 +16,7 @@
 					<div class="panel-more1">
 						<a href="{{ route('detail')
 							. '?id=' . $picture['id'] }}">
-							<img class="thumb-img" alt=""
+							<img class="img-responsive" alt=""
 								src="{{ asset('upload/small/'
 									. $picture['id']
 									. '_' . $picture['filename'])
