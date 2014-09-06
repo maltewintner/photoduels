@@ -16,8 +16,8 @@
 		<div class="col-md-8 column">
 			<a href="{{ route('e-voting') . '/'
 				. $dataPicture['pictureCategory'] . '?first='
-				. $dataPicture['first'] . '&second='
-				. $dataPicture['second'] . '&won='
+				. $dataPicture['first'] . '&amp;second='
+				. $dataPicture['second'] . '&amp;won='
 				. $dataPicture['won'] }}"
 				class="btn btn-new-picture">
 				<i class="fam-arrow-left"></i>

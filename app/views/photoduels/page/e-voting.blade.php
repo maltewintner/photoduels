@@ -19,8 +19,8 @@
 			<div class="col-lg-6 col-md-6 col-xs-12 duel-thumb">
 				<a class="thumbnail" href="{{ route('e-voting') }}/{{
 					$pictureCategory }}?first={{
-					$dataDuel['id1'] }}&second={{
-					$dataDuel['id2'] }}&won={{
+					$dataDuel['id1'] }}&amp;second={{
+					$dataDuel['id2'] }}&amp;won={{
 					$dataDuel['id1'] }}">
 					<img class="img-responsive"
 						alt=""
@@ -33,8 +33,8 @@
 			<div class="col-lg-6 col-md-6 col-xs-12 duel-thumb">
 				<a class="thumbnail" href="{{ route('e-voting') }}/{{
 					$pictureCategory }}?first={{
-					$dataDuel['id1'] }}&second={{
-					$dataDuel['id2'] }}&won={{
+					$dataDuel['id1'] }}&amp;second={{
+					$dataDuel['id2'] }}&amp;won={{
 					$dataDuel['id2'] }}">
 					<img class="img-responsive"
 						alt=""

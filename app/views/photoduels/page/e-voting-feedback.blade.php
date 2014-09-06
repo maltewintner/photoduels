@@ -18,9 +18,9 @@
 	$isFirstWinner = ($dataFeedback['won']['id'] == $dataFeedback['first']);
 	$dataFirst = ($isFirstWinner ? $dataFeedback['won'] : $dataFeedback['lost']);
 	$dataSecond = ($isFirstWinner ? $dataFeedback['lost'] : $dataFeedback['won']);
-	$param = '&category=' . $dataFeedback['pictureCategory']
-		. '&first=' . $dataFeedback['first'] . '&second='
-		. $dataFeedback['second'] . '&won='
+	$param = '&amp;category=' . $dataFeedback['pictureCategory']
+		. '&amp;first=' . $dataFeedback['first'] . '&second='
+		. $dataFeedback['second'] . '&amp;won='
 		. ($isFirstWinner ? $dataFirst['id'] : $dataSecond['id']);
 
 	?>
